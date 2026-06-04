@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Найди шляпы</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+    <div class="game-container">
+        <canvas id="gameCanvas" width="700" height="500"></canvas>
+        <div class="info-panel">
+            <span class="counter">🎩 <span id="leftCount">5</span></span>
+            <button id="resetBtn">🔄 Новая игра</button>
+        </div>
+        <div class="message-box" id="message">🎩 Найди все 5 разных шляп! Кликай на них 🎩</div>
+        <div class="items-list" id="itemsList"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
